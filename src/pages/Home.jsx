@@ -4,7 +4,7 @@ export const Home = () => {
   return (
     <header>
       <h1>Meu site React</h1>
-      <Pokemon/>
+      <Pokemon name="Squirtle" index="2"/>
     </header>
   ) 
 }
