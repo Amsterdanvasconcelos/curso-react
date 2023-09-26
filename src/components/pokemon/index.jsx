@@ -1,5 +1,7 @@
+import style from './style.module.css'
+
 export const Pokemon = ({ name = 'Pikachu', index }) => {
     return (
-        <h2>Nome do pokemon: {name}</h2> 
+        <h2>Pokemon: <span className={style.name}>{name}</span></h2> 
     )
 }
