@@ -1,10 +1,10 @@
-import { Pokemon } from '../components/Pokemon'
+import { Pokemon } from '../../components/pokemon'
 
 export const Home = () => {
   return (
     <header>
       <h1>Meu site React</h1>
-      <Pokemon name="Squirtle" index="2"/>
+      <Pokemon name="Squirtle"/>
     </header>
   ) 
 }
